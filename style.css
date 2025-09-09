@@ -78,6 +78,7 @@ body {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
+  border: none;
 }
 
 .container-2 {
@@ -111,10 +112,12 @@ body {
   text-align: center;
   justify-content: space-between;
   margin: auto;
+  
+ 
 }
 
-img {
-  border: 50px #3882F6;
+img{
+  border: 2px solid #3882f6;
   border-radius: 5px;
 }
 
@@ -122,3 +125,4 @@ img {
   font-size: 10px;
   max-width: 100px;
 }
+
