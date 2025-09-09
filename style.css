@@ -1,49 +1,106 @@
-/* Header container */
-.header {
-  background: rebeccapurple;
-  padding: 50px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  
+body {
+  margin: 0;
+  font-family: Roboto;
 }
 
-/* Top row: logo left, links right */
+.header {
+  background: #1f2937;
+  color: white;
+  padding: 0 32px 32px 32px; /* padding on bottom, right, left */
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+
 .top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 50px;
 }
 
-/* Logo style */
 .logo {
   font-weight: bold;
   font-size: 24px;
 }
 
-/* Navigation links */
 .links {
+  list-style: none;
   display: flex;
   gap: 16px;
-  list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* Title and subtext */
-.title {
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; 
+  gap: 32px;
+}
+
+
+.hero {
+  max-width: 600px;
+  flex: 1;
+}
+
+.hero-title {
   font-size: 36px;
   font-weight: bold;
+  margin-bottom: 16px;
 }
 
-.subtext {
+.hero-subtext {
   font-size: 18px;
-  color: #ccc;
-  max-width: 600px;
+  color: #ddd;
+  margin-bottom: 20px;
 }
 
-.button1 {
-    display: flex;
+.hero-button button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: white;
+  color: rebeccapurple;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
+.hero-button button:hover {
+  background-color: #e5e5e5;
+}
+
+/* Image */
+.header-pic img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  
+}
+.title-2{
+  flex-direction: column;
+  text-align: center;
+  margin: 50px;
+  
+  
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+}
+
+.pic{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
