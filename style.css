@@ -169,11 +169,28 @@ img{
   margin: 80px;
   align-self: center;
   max-width: 3000px;
-  border-radius: 10px;
+  border-radius: 5px;
+  
 }
 
 .blue-back-text{
+  margin-top: 15px;
+  margin-left: 60px;
   padding: 30px;
+  color: white;
+}
+
+.button-4 button{
+  align-self: center;
+  margin: 50px;
+  margin-right: 60px;
+  background-color: #3882f6;
+  color: white;
+  padding-left: 7px;
+  padding-right: 7px;
+  border: solid white;
+  border-radius: 5px;
+ 
 }
 
 
