@@ -112,8 +112,7 @@ body {
   text-align: center;
   justify-content: space-between;
   margin: auto;
-  
- 
+  margin-bottom: 50px;
 }
 
 img{
@@ -125,4 +124,14 @@ img{
   font-size: 10px;
   max-width: 100px;
 }
+
+.container-3 {
+  display: flex;
+  background-color: #e5e7eb;
+  flex-direction: column;
+  padding: 100px;
+}
+
+
+
 
