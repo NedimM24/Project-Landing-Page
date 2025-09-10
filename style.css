@@ -188,9 +188,25 @@ img{
   color: white;
   padding-left: 7px;
   padding-right: 7px;
-  border: solid white;
+  border: solid white 1px;
   border-radius: 5px;
- 
+}
+
+.call {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer {
+  display: flex;
+  background-color: #1f2937;
+  justify-content: center;
+}
+
+.footer-text{
+  color: white;
+  align-self: center;
+  padding: 30px;
 }
 
 
